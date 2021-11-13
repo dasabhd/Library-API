@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Single Test">
+    <test name="Test One">
+        <classes>
+            <class name="org.TestCases.AddBook"/>
+            <class name="org.TestCases.getBookbyAuthorName"></class>
+        </classes>
+    </test>
+</suite>
